@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: finance-manager-bot
+    env: node
+    buildCommand: npm install
+    startCommand: node-red
+    envVars:
+      - key: NODE_RED_CREDENTIAL_SECRET
+        value: rahasia_finance_2024
+      - key: PORT
+        value: 1880
