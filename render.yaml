@@ -6,6 +6,6 @@ services:
     startCommand: node-red
     envVars:
       - key: NODE_RED_CREDENTIAL_SECRET
-        value: rahasia_finance_2024
+        value: =Engineer101723
       - key: PORT
         value: 1880
