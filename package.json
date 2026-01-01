@@ -1,0 +1,18 @@
+{
+  "name": "finance-manager-bot",
+  "version": "1.0.0",
+  "description": "Personal Finance Manager with Node-RED",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red"
+  },
+  "dependencies": {
+    "node-red": "^3.0.0",
+    "node-red-dashboard": "^3.0.0",
+    "node-red-contrib-mongodb3": "^0.3.0",
+    "node-red-node-telegram-bot": "^0.3.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
